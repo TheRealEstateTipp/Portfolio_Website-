@@ -65,3 +65,15 @@ h2{
     display: table;
     clear: both;
 }
+.projectcolumn{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.project{
+    content:"";
+    display: table;
+    clear: both;
+}
