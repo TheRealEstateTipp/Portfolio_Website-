@@ -1,8 +1,24 @@
 body {
     background-color: white;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
      }           
-.container{
+.header{
     background-color: lightslategray;
+    border-bottom: 5px solid black;
+    padding: 30px 15px;
+}
+
+.header-right{
+    float: right;
+}
+.header a{
+    float: left;
     color: black;
-    border-bottom: black;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 25px;
 }
