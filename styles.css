@@ -30,3 +30,15 @@ body {
 .header a:active{
     color: peachpuff;
 }
+.hero-image{
+    background-image: url();
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+hr.solid{
+    border-top: 5px solid lightslategray;
+    padding-top: 25px;
+}
