@@ -67,5 +67,39 @@ h2{
 hr.solid{
     border-top: 3px solid lightslategray;
 }
+input[type=text], [type=email], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: lightslategray;
+    color: black;
+    padding: 12 px 20px;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.contactcolumn{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    align-content: center;
+}
+contactrows:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
 
 
