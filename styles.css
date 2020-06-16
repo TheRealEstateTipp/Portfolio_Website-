@@ -1,8 +1,8 @@
 body {
     background-color: white;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-     }           
+    font-family: Georgia, 'Times New Roman', Times, serif
+    }           
 .header{
     background-color: lightslategray;
     border-bottom: 5px solid black;
@@ -50,7 +50,7 @@ body {
     font-size: 18px;
 }
 
-.project::after{
+.project:after{
     content:"";
     display: table;
     clear: both;
@@ -95,10 +95,33 @@ input[type=submit]{
     padding: 20px;
     align-content: center;
 }
-contactrows:after{
+.contactrows:after{
     content:"";
     display: table;
     clear: both;
+}
+footer{
+    background-color: lightslategray;
+    border-top: 5px solid black;
+}
+footer.logo{
+    align-content: center;
+}
+ul{
+    list-style-type: none;
+}
+@font-face{
+    font-family: myFirstFont;
+    src:();
+}
+p1{
+    background-color: orange; /* This is a comment test */
+}
+th{
+    height: 75px;
+}
+div1.static{
+    position: static;
 }
 
 
