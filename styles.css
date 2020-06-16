@@ -30,14 +30,6 @@ body {
 .header a:active{
     color: peachpuff;
 }
-.hero-image{
-    background-image: url();
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 .aboutcolumn{
     float: left;
     width: 50%;
